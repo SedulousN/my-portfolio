@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="your-image.jpg" alt="Profile Picture">
+        <span>Your Name</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <section class="main-section">
+    <div class="social-icons">
+      <a href="https://linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+      <a href="https://twitter.com"><img src="twitter-icon.png" alt="Twitter"></a>
+      <a href="https://youtube.com"><img src="youtube-icon.png" alt="YouTube"></a>
+      <a href="https://github.com"><img src="github-icon.png" alt="GitHub"></a>
+    </div>
+    <div class="content">
+      <h1>HEY, I'M [Your Name]</h1>
+      <p>A Frontend focused Web Developer building websites and web applications that lead to the success of the overall product.</p>
+      <a href="#projects" class="btn">Projects</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Your Name. All rights reserved.</p>
+  </footer>
+
+  <style>
+    /* CSS Styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .logo span {
+      margin-left: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+    }
+
+    .nav-links li {
+      margin-left: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-weight: 500;
+      color: #333;
+    }
+
+    /* Main Section */
+    .main-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f1f1f1 url('background-pattern.png') no-repeat center center;
+      background-size: cover;
+    }
+
+    .social-icons {
+      position: fixed;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .social-icons img {
+      width: 25px;
+      margin: 10px 0;
+    }
+
+    .content {
+      text-align: center;
+    }
+
+    .content h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background-color: #f0b400;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</body>
+</html>

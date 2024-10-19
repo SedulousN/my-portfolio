@@ -1,0 +1,58 @@
+/* FrontPage.css */
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: #f1f1f1 no-repeat center center; */
+  background-size: cover;
+}
+
+.profile-portrait {
+  width: 200px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-icons img {
+  width: 25px;
+  margin: 10px 10px;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #f0b400;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d89e00;
+}

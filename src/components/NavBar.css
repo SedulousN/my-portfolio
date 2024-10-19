@@ -1,0 +1,64 @@
+/* NavBar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(145, 196, 210);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-100%);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+}
+
+.navbar.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  margin-right: 30px;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  font-weight: 500;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-links button:hover {
+  color: #007bff;
+}
