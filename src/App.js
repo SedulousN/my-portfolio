@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import FrontPage from './components/FrontPage';
+import ExtraCurriculum from './components/ExtraCurriculum';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Projects />
       <Skills />
       <Education />
+      <ExtraCurriculum />
       <Contact />
     </div>
   );

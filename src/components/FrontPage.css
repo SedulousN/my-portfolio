@@ -21,11 +21,13 @@
   position: fixed;
   left: 20px;
   top: 50%;
+  z-index: 200;
   transform: translateY(-50%);
 }
 
 .social-icons img {
   width: 25px;
+  border-radius: 50%;
   margin: 10px 10px;
 }
 
@@ -50,6 +52,7 @@
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 

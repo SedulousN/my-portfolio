@@ -1,0 +1,70 @@
+/* About.css */
+.about-section {
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-container p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .highlights {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .highlight-box {
+    background-color: #f0b400;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .highlight-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-box p {
+    font-size: 1.1em;
+    margin: 0;
+  }
+  
+  .highlight-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .highlights {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .highlight-box {
+      width: 100%;
+    }
+  }
+  

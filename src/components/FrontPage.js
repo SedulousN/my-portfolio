@@ -9,13 +9,25 @@ import backgroundImage from './images/background.jpeg'
 
 
 const FrontPage = () => {
+  const handleNavClick = (sectionId) => {
+    const element = document.querySelector(sectionId);
+    const navHeight = document.querySelector('.navbar').offsetHeight;
+
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - navHeight,
+        behavior: 'smooth',
+      });
+    }
+  };
+  
   return (
     <div className="main-section" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="content">
         <img src={profilePic} alt="Profile" className="profile-portrait" />
         <h1>Welcome to My Portfolio</h1>
         <p>Discover my work, skills, and projects</p>
-        <a href="#projects" className="btn">Explore Projects</a>
+        <a onClick={() => handleNavClick('#projects')} className="btn">Explore Projects</a>
       </div>
 
       <div className="social-icons">
