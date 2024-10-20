@@ -71,6 +71,26 @@ To run this project locally:
 
    The website will be available at `http://localhost:3000`.
 
+
+## To deploy using GitHub Pages:
+1. Install the `gh-pages` package:
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+
+2. Add the following scripts to `package.json`:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+
+3. Deploy:
+   ```bash
+   npm run deploy
+   ```
+
 ## Usage
 
 - Modify the content in the `src` directory to customize your portfolio.
