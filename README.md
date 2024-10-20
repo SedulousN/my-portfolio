@@ -4,7 +4,7 @@ This is a personal portfolio website built using **React**. The portfolio showca
 
 ## Demo
 
-[Link to Portfolio](https://your-portfolio-link.com)
+[Link to Portfolio](https://sedulousn.github.io/my-portfolio/)
 
 ## Table of Contents
 - [Overview](#overview)
