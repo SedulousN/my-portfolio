@@ -51,9 +51,9 @@ const Projects = () => {
     <section id="projects" className="projects-section">
       <h2>Projects</h2>
       <div className="projects-carousel">
-        {/* <button className="arrow-btn left-arrow" onClick={handlePrev}>
+        <button className="arrow-btn left-arrow" onClick={handlePrev}>
           <FaArrowLeft />
-        </button> */}
+        </button>
 
         <div className="project-cards">
           {/* Previous Project (partially visible) */}
@@ -80,9 +80,9 @@ const Projects = () => {
           </div>
         </div>
 
-        {/* <button className="arrow-btn right-arrow" onClick={handleNext}>
+        <button className="arrow-btn right-arrow" onClick={handleNext}>
           <FaArrowRight />
-        </button> */}
+        </button>
       </div>
     </section>
   );
