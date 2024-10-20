@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.37214ee4.css",
-    "main.js": "/my-portfolio/static/js/main.914d1e73.js",
+    "main.css": "/my-portfolio/static/css/main.5a96b56d.css",
+    "main.js": "/my-portfolio/static/js/main.d1793722.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/gesture-control.png": "/my-portfolio/static/media/gesture-control.ba1cb910ebd2818aaf39.png",
-    "static/media/profile.png": "/my-portfolio/static/media/profile.6713c48227a827e8312e.png",
+    "static/media/asciiArt.png": "/my-portfolio/static/media/asciiArt.56909a275be5526b226b.png",
     "static/media/Resume-3.pdf": "/my-portfolio/static/media/Resume-3.d9153ddeaa30f7a0760a.pdf",
     "static/media/manufacturing.jpg": "/my-portfolio/static/media/manufacturing.84d2ffcc191844aa45e4.jpg",
     "static/media/sabrang-database.png": "/my-portfolio/static/media/sabrang-database.c3d21cc1a10cdc1cb73d.png",
     "index.html": "/my-portfolio/index.html",
-    "main.37214ee4.css.map": "/my-portfolio/static/css/main.37214ee4.css.map",
-    "main.914d1e73.js.map": "/my-portfolio/static/js/main.914d1e73.js.map",
+    "main.5a96b56d.css.map": "/my-portfolio/static/css/main.5a96b56d.css.map",
+    "main.d1793722.js.map": "/my-portfolio/static/js/main.d1793722.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37214ee4.css",
-    "static/js/main.914d1e73.js"
+    "static/css/main.5a96b56d.css",
+    "static/js/main.d1793722.js"
   ]
 }
