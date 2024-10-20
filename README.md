@@ -91,7 +91,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Just replace:
-- The **Portfolio link** in the "Demo" section with your actual portfolio URL.
-- The **GitHub repo link** in the `git clone` command.
-- Ensure the **Formspree endpoint** is updated in your code.
