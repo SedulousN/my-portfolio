@@ -1,7 +1,8 @@
 // FrontPage.js
 import React from 'react';
 import './FrontPage.css';
-import profilePic from './images/profile.png'; // Replace with actual image path
+// import profilePic from './images/profile.png';
+import profilePic from './files/asciiArt.png';
 import githubicon from './images/github-icon.png';
 import linkedinicon from './images/linkedin-icon.png';
 import gmailicon from './images/gmail-icon.png';

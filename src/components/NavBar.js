@@ -1,7 +1,7 @@
 // NavBar.js
 import React, { useState, useEffect } from 'react';
 import './NavBar.css';
-import profileimg from './images/profile.png'
+import profileimg from './files/asciiArt.png'
 import { FaBars } from 'react-icons/fa'; // Hamburger icon from react-icons
 
 const NavBar = () => {
